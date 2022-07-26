@@ -2,11 +2,12 @@
   "name": "@t2421/first-npm",
   "private": false,
   "version": "1.0.0",
-  "description": "どんなパッケージのかの説明",
+  "description": "npm公開テスト用",
   "type": "module",
+  "main": "dist/",
   "repository": {
     "type": "git",
-    "url": "リポジトリのURL"
+    "url": "https://github.com/t2421/first-npm"
   },
   "scripts": {
     "dev": "vite",
@@ -16,5 +17,15 @@
   "devDependencies": {
     "typescript": "^4.6.4",
     "vite": "^3.0.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/t2421/first-npm/issues"
+  },
+  "homepage": "https://github.com/t2421/first-npm",
+  "keywords": [
+    "キーワード",
+    "keyword"
+  ],
+  "author": "t2421",
+  "license": "MIT"
 }
